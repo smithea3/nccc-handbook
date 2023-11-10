@@ -34,4 +34,50 @@
       The <term>number of students</term> is the number of students participating in a course at the <xref ref="def-census-date" text="title" /> of the course.
     </p>
   </definition>
+
+  <definition xml:id="def-student-membership-hours">
+    <title>Student Membership Hours</title>
+    <p>
+      The <term>student membership hours</term> is the total number of hours each student meets in a course.
+    </p>
+  </definition>
+
+  <definition xml:id="def-course-membership-hours">
+    <title>Course Membership Hours</title>
+    <p>
+      The <term>course membership hours</term> is the total number of <xref ref="def-student-membership-hours" text="title" /> in a course.
+    </p>
+    <p>
+      To calculate the course members hours, the formula for this calculation is
+      <me>
+        \text{Course Membership Hours} = \text{Contact Hours} \times 16.
+      </me>
+    </p>
+    <p>
+      Notice that course membership hours, regardless of the number of weeks that a course meets, is
+      calculated using a 16-week baseline.
+    </p>
+  </definition>
+
+  <p>
+    Consider the following example to give context to these definition.
+  </p>
+
+  <example>
+    <statement>
+      <p>
+        Consider an ENG-111: Writing and Inquiry course that originally had 24 students on 
+        the roster at the start date of the course. Now consider, as you may have witnessed,
+       that two students drop the course before the <xref ref="def-census-date" text="title" />,
+        and another student never participated in any part of the course by the Census Date.
+        This means that 21 students are participating in the course at the Census Date; therefore,
+        the <xref ref="def-number-of-students" text="title" /> in the course would be 21.
+      </p>
+      
+      <p>
+        The <xref ref="def-student-membership-hours" text="text" /> for ENG-111,
+        the calculati
+      </p>
+    </statement>
+  </example>
 </section>
