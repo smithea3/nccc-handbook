@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-the-basics-of-fte" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Basics of Full-time Equivalence</title>
+
+  <p> 
+    The term full-time equivalence is not endemic to colleges and universities. Many human resources
+    departments at other companies and organizations use the term full-time equivalence when
+    determining business aspects. For example, a company may wish to calculate the profits per
+    employee. To do so, they must consider the full-time employees and the part-time employees time
+    into an equivalent measure for comparison and calculation. In mathematics, the process of
+    calculating a singluar standard by which to compare individuals within a group is called <term>
+    normalizing</term>. 
+  </p>
+
+  <p>
+    As stated in the introduction of this chapter, the term FTE is used in other institutions and 
+    organizations other than just colleges and university. Therefore, the following definitions
+    are necessary to establish the calculations that will be discussed later.
+  </p>
+
+  <definition xml:id="def-census-date">
+    <title>Census Date</title>
+    <p> 
+      The [North Carolina] State Voard of Community College Code 1G SBCCC 200.93: Reporting of
+      Student Hours in Membership for Curriculum Classes states that the <term>census date</term> is
+     the date at which 10% of the course's meeting time has occured. 
+    </p>
+  </definition>
+
+  <definition xml:id="def-number-of-students">
+    <title>Number of Students</title>
+    <p>
+      The <term>number of students</term> is the number of students participating in a course at the <xref ref="def-census-date" text="title" /> of the course.
+    </p>
+  </definition>
+</section>

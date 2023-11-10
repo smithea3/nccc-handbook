@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-fte" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Full Time Equivalency</title>
+
+  <introduction>
+    <p>
+      The acronym "FTE," which stands for full-time equivalence, is used in almost every
+      conversation where the topic of funding is up for discussion. Although individuals that work
+      closely with institutional funding often have a deep understanding and working relationship
+      with the definitions, mathematics, and significance of of FTE, for those that do not, this
+      chapter is written to provide that insight. Furthermore, this chapter can also serve as a
+      reference to those who do continuosly work with FTE, and need a source to reference from tiem
+      to time.
+    </p>
+    <p>
+      In this chapter, the concept of full-time equivalence (FTE) will be developed through the lens of 
+      the North Carolina Community College System (NCCCS). Additionally, the basic definitions used to 
+      in discussing FTE will be given, along with examples of how FTE is calculated. Finally, this
+      chapter will conclude with a section on the impact and importance of FTE related to not only the
+      funding for academic program at institutions within the NCCCS, but also other funding allocations
+      for budget items such as the president's salary and benefits, institutional and academic support 
+      services, and academic funding allocations for both curriculum and continuting education programs.
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-the-basics-of-fte.ptx" />
+
+</chapter>
