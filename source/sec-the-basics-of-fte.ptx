@@ -4,80 +4,156 @@
   <title>The Basics of Full-time Equivalence</title>
 
   <p> 
-    The term full-time equivalence is not endemic to colleges and universities. Many human resources
+    The term full-time equivalence is not specific to colleges and universities. Many human resources
     departments at other companies and organizations use the term full-time equivalence when
     determining business aspects. For example, a company may wish to calculate the profits per
     employee. To do so, they must consider the full-time employees and the part-time employees time
     into an equivalent measure for comparison and calculation. In mathematics, the process of
-    calculating a singluar standard by which to compare individuals within a group is called <term>
-    normalizing</term>. 
+    calculating a standard by which to compare individuals within a group is a process called 
+    <term>normalization</term>.
   </p>
 
-  <p>
-    As stated in the introduction of this chapter, the term FTE is used in other institutions and 
-    organizations other than just colleges and university. Therefore, the following definitions
-    are necessary to establish the calculations that will be discussed later.
-  </p>
-
-  <definition xml:id="def-census-date">
-    <title>Census Date</title>
-    <p> 
-      The [North Carolina] State Voard of Community College Code 1G SBCCC 200.93: Reporting of
-      Student Hours in Membership for Curriculum Classes states that the <term>census date</term> is
-     the date at which 10% of the course's meeting time has occured. 
-    </p>
-  </definition>
-
-  <definition xml:id="def-number-of-students">
-    <title>Number of Students</title>
+  <subsection xml:id="subsec-definitions">
+      <title>Definitions for NCCCS FTE Calculation</title>
     <p>
-      The <term>number of students</term> is the number of students participating in a course at the <xref ref="def-census-date" text="title" /> of the course.
+      As stated in the introduction of this chapter, the term FTE is used in other institutions and 
+      organizations other than just colleges and university. Therefore, the following definitions
+      are necessary to establish the calculations specific to college and universities.
     </p>
-  </definition>
 
-  <definition xml:id="def-student-membership-hours">
-    <title>Student Membership Hours</title>
-    <p>
-      The <term>student membership hours</term> is the total number of hours each student meets in a course.
-    </p>
-  </definition>
-
-  <definition xml:id="def-course-membership-hours">
-    <title>Course Membership Hours</title>
-    <p>
-      The <term>course membership hours</term> is the total number of <xref ref="def-student-membership-hours" text="title" /> in a course.
-    </p>
-    <p>
-      To calculate the course members hours, the formula for this calculation is
-      <me>
-        \text{Course Membership Hours} = \text{Contact Hours} \times 16.
-      </me>
-    </p>
-    <p>
-      Notice that course membership hours, regardless of the number of weeks that a course meets, is
-      calculated using a 16-week baseline.
-    </p>
-  </definition>
-
-  <p>
-    Consider the following example to give context to these definition.
-  </p>
-
-  <example>
-    <statement>
-      <p>
-        Consider an ENG-111: Writing and Inquiry course that originally had 24 students on 
-        the roster at the start date of the course. Now consider, as you may have witnessed,
-       that two students drop the course before the <xref ref="def-census-date" text="title" />,
-        and another student never participated in any part of the course by the Census Date.
-        This means that 21 students are participating in the course at the Census Date; therefore,
-        the <xref ref="def-number-of-students" text="title" /> in the course would be 21.
+    <definition xml:id="def-census-date">
+      <title>Census Date</title>
+      <p> 
+        The [North Carolina] State Voard of Community College Code 1G SBCCC 200.93: Reporting of
+        Student Hours in Membership for Curriculum Classes states that the <term>census date</term> is
+      the date at which 10% of the course's meeting time has occured. 
       </p>
-      
+    </definition>
+
+    <definition xml:id="def-number-of-students">
+      <title>Number of Students</title>
       <p>
-        The <xref ref="def-student-membership-hours" text="text" /> for ENG-111,
-        the calculati
+        The <term>number of students</term> is the number of students participating in a course at the <xref ref="def-census-date" text="title" /> of the course.
       </p>
-    </statement>
-  </example>
+    </definition>
+
+    <definition xml:id="def-student-membership-hours">
+      <title>Student Membership Hours</title>
+      <p>
+        The <term>student membership hours</term> is the total number of hours each student meets in a course.
+      </p>
+      <p>
+        To calculate the student membership hours (SMH), the formula is
+        <me>
+          \textbf{Student Membership Hours} = \textbf{Contact Hours} \times 16.
+        </me>
+      </p>
+      <p>
+        Notice that student membership hours, regardless of the number of weeks that a course meets, is
+        calculated using a 16-week baseline.
+      </p>
+    </definition>
+
+    <definition xml:id="def-course-membership-hours">
+      <title>Course Membership Hours</title>
+      <p>
+        The <term>course membership hours</term> is the total number of <xref ref="def-student-membership-hours" text="title" /> in a course.
+      </p>
+      <p>
+        To calculate the course membership hours, the formula is
+        <me>
+          \textbf{Course Membership Hours (CMH)} = \textbf{Student Membership Hours} \times \textbf{Number of Students}
+        </me>
+      </p>
+    </definition>
+
+    <p>
+      Consider the following example to give context to these definition.
+    </p>
+
+    <example xml:id="example-eng-111-with-21-students">
+      <statement>
+        <p>
+          Consider an ENG-111: Writing and Inquiry course that originally had 24 students on 
+          the roster at the start date of the course. Now consider, as you may have witnessed,
+        that two students drop the course before the <xref ref="def-census-date" text="title" />,
+          and another student never participated in any part of the course by the Census Date.
+          This means that 21 students are participating in the course at the Census Date; therefore,
+          the <xref ref="def-number-of-students" text="title" /> in the course would be 21.
+        </p>
+        
+        <p>
+          For ENG-111, the number of contact hours is set at three hours. Therefore, the 
+          <xref ref="def-student-membership-hours" text="title" /> (CMH) for ENG-111, is calclated to be
+          <me>
+            \textbf{ENG-111's SMH} = 3 \times 16 = 48.
+          </me>
+        </p>
+
+        <p>
+          Furthermore, the course membership hours would be
+          <me>
+            \textbf{ENG-111 with 21 Number of Students' CMH} = 48 \times 21 = 1008
+          </me>
+        </p>
+      </statement>
+    </example>
+  </subsection>
+  <subsection xml:id="subsec-calculating-fte">
+    <title>Calculating FTE in the NCCCS</title>
+    <warning>
+      <p>
+        Be advised that the numbers for FTE used in this part of this section are subject to change. 
+        Specifically, the denominator value discussed below may change with new laws, policies, and
+        procedures created at the state level. While the best effort is made to ensure that the 
+        numbers used in this text is accurate, the informationw written herein represents the latest
+        numbers as of <today />.
+      </p>
+    </warning>
+    <fact xml:id="fact-fte-denominator">
+      <title>The FTE Denominator</title>
+      <statement>
+        <p>
+          Again, when considering the calculations for FTE, it is important to have a metric by which 
+          to compare a course's enrollment on a full-time basis (hence the term full-time equivalence).
+          A value that <term>normalizes</term> the course membership hours is needed to compare the
+          various courses enrollment contribution to an institution.
+        </p>
+        <p>
+          As of <today /> the number that is used to normalize a course's enrollment contribution
+          is 512. To get this value, the NCCCS considers the average full-time student to have 16 
+          contact hours of courses, multiplied by 16 weeks in a semester, multiplied by 2 semesters
+          in an academic year. 
+        </p>
+      </statement>
+    </fact>
+
+    <definition xml:id="def-fte-calculation">
+      <title>The NCCCS FTE Calculation</title>
+      <statement>
+        <p>
+          To calculate the FTE of a course in the NCCCS, the course membership hours is divided by 
+          512 (see <xref ref="fact-fte-denominator" text="title" />). The formula for this calculation
+          is
+          <me>
+            \textbf{1 FTE} = \frac{\textbf{Course Membership Hours}}{512}.
+          </me>
+        </p>
+      </statement>
+    </definition>
+    
+    <p>
+      Revisit the numbers from <xref ref="example-eng-111-with-21-students"/> for the following example.
+    </p>
+    <example>
+      <p>
+        To calculate the FTE of the ENG-111 course from <xref ref="example-eng-111-with-21-students"/>,
+        the following calcualtion would be performed.
+        <md>
+          <mrow>\textbf{ENG-111 with Number of Student of 21 FTE} \amp = \frac{\textbf{Course Membership Hours}}{512}</mrow>
+          <mrow> \amp =\frac{1008}{512} \approx 1.969</mrow>
+        </md>
+      </p>
+    </example>
+  </subsection>
 </section>
