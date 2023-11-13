@@ -21,26 +21,73 @@
       are necessary to establish the calculations specific to college and universities.
     </p>
 
+    <definition xml:id="def-contact-hours">
+      <title>Contact Hours</title>
+      
+      
+      <statement>
+        <p>
+          The number of <term>contact hours</term> of a course is the actual time of student 
+          attendance in a class or lab. For records purposes, 60 minutes constitutes an hour.
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <statement>
+        <p>
+          Consider the Nurse Aide I (NAS-101) in the NCCCS Combined Course Library. This course
+          has three class hours, four lab hours, and three clinical hours. This would sum to be 10
+          contact hours for the course.
+        </p>
+      </statement>
+    </example>
+
+    <definition xml:id="def-credit-hours">
+      <title>Credit Hours</title>
+      <p>
+        The number of contact hours of a course is different from the <term>credit hours</term>.
+        The number of credit hours is calculated based on a weighted average of the four designations 
+        for meeting times (i.e., class, lab, clinical, and work). The weights for the meeting time 
+        designations are 1, 0.5, <m>\frac{1}{6}</m> and 0.10 respectively.
+      </p>
+    </definition>
+
+    <example>
+      <statement>
+        <p>
+          For example, the Nurse Aide I (NAS-101) course would have six credit hours based on the 
+          weighted calculation as follows:
+          <md>
+            <mrow>\textbf{Credit Hours} \amp = 3 \times 1 + 4 \times 0.5 + 6 \times \frac{1}{6} + 0 \times 0  </mrow>
+            <mrow> \amp = 6 </mrow>
+          </md>
+        </p>
+      </statement>
+    </example>
+
     <definition xml:id="def-census-date">
       <title>Census Date</title>
       <p> 
         The [North Carolina] State Voard of Community College Code 1G SBCCC 200.93: Reporting of
         Student Hours in Membership for Curriculum Classes states that the <term>census date</term> is
-      the date at which 10% of the course's meeting time has occured. 
+        the date at which 10% of the course's meeting time has occured. 
       </p>
     </definition>
 
     <definition xml:id="def-number-of-students">
       <title>Number of Students</title>
       <p>
-        The <term>number of students</term> is the number of students participating in a course at the <xref ref="def-census-date" text="title" /> of the course.
+        The <term>number of students</term> is the number of students participating in a course at the 
+        <xref ref="def-census-date" text="title" /> of the course.
       </p>
     </definition>
 
     <definition xml:id="def-student-membership-hours">
       <title>Student Membership Hours</title>
       <p>
-        The <term>student membership hours</term> is the total number of hours each student meets in a course.
+        The <term>student membership hours</term> is the total number of <term>contact hours</term>
+         each student meets in a course.
       </p>
       <p>
         To calculate the student membership hours (SMH), the formula is
@@ -57,7 +104,8 @@
     <definition xml:id="def-course-membership-hours">
       <title>Course Membership Hours</title>
       <p>
-        The <term>course membership hours</term> is the total number of <xref ref="def-student-membership-hours" text="title" /> in a course.
+        The <term>course membership hours</term> is the total number of 
+        <xref ref="def-student-membership-hours" text="title" /> in a course.
       </p>
       <p>
         To calculate the course membership hours, the formula is
@@ -68,7 +116,7 @@
     </definition>
 
     <p>
-      Consider the following example to give context to these definition.
+      Consider the following example to give context to these definitions.
     </p>
 
     <example xml:id="example-eng-111-with-21-students">

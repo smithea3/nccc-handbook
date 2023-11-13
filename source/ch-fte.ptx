@@ -26,5 +26,6 @@
 
   <!-- include sections -->
   <xi:include href="sec-the-basics-of-fte.ptx" />
+  <xi:include href="sec-fte-and-college-funding.ptx" />
 
 </chapter>

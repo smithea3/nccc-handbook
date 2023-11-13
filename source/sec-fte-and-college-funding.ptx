@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-fte-and-college-funding.ptx">
+    <title>Full-time Equivalence and College Funding</title>
+    <introduction>
+        <p>
+            The previous section established the definitions and calcualtions for full-time 
+            equivalence. In this section, the impact that FTE has on college-level funding and
+            how funds are allocated based on FTE is discussed. When reading this informaiton,
+            it is important to keep in mind that the information and numbers represent the information
+            available at the time of writing. Legislation may impact the values of the calculations
+            between times when this document is updated. 
+        </p>
+    </introduction>
+    
+    <subsection xml:id="subsec-tiered-funding">
+        <title>Tiered Funding Based on FTE</title>
+        <p>
+            Each course in the North Carolina Community College System has various and expectations
+            for time needed for instruction are accounted for in the 
+            <xref ref="def-contact-hours" text="title" /> of the course.
+        </p>
+
+        <fact xml:id="fact-tier-funding-for-fte">
+            <title>Tier Funding for FTE</title>
+            <statement>
+                <p>
+                    Certain courses in the NCCCS are associated with higher costs. This higher cost
+                    is adjusted in the college's allocated funds based on a tiered system of funding.
+                    The NCCCS uses a four-tier system. The following are the four tiers with their
+                    respective funding level 
+                    <url href="https://webservices.ncleg.gov/ViewDocSiteFile/74400">Click here
+                    to see the Fiscal Research Division of the NC General Assembly presentation
+                    on these numbers. </url>.
+                    <ul>
+                        <li>
+                            <p>
+                                Tier 1A ($4,889.65): This is the highest level of funding tier. Courses in this
+                                tier include health care and technical education courses.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Tier 1B ($4,325.46): Courses in this tier include lab-based science 
+                                courses, college-level mathematics courses, and some courses in 
+                                health care and technical education not funded at the Tier 1A level.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Tier 2 ($3,721.27): This tier includes all other curriculum courses, 
+                                basic skills, and other continuing education courses scheduled for more
+                                than 96 or more contact hours leading to a credential, certification 
+                                or indurstry-designed curriculum.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Tier 3 ($2,380.88): This tier is for all other continuing education
+                                courses.
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </fact>
+        
+    </subsection>
+</section>
