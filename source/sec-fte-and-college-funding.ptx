@@ -119,14 +119,36 @@
             <statement>
                 <p>
                     Return on Investment is a performance metric used to calculate and compare a 
-                    the financial efficiency and the net budgetary profits of a course.
-                </p>
-                <p>
-                    Traditionally, ROI is expressed as a percentage calculated by subtracting the
-                    cost of a course by the budget allocation of the course divided by the budget
-                    allocation of the course.
+                    the financial efficiency and the net budgetary profits of a course. The 
+                    calculation for ROI is as follows:
+                    <me>
+                        \textbf{ROI} = \frac{\textbf{FTE Budget Allocation} - \textbf{Instructional Cost}}{\textbf{FTE Budget Allocation}}\times 100\%
+                    </me>                    
                 </p>
             </statement>
         </definition>
+        <p>
+            For simplicity, the ROI of a course can taken to be the numerator of the ROI
+            calculation, rather than the traditional percentage. However, if the purpose of the ROI
+            metric is to compare two courses, then the percentage should be used to rather than
+            simply the difference in the allocation and cost.
+        </p>
     </subsection>
+    <example>
+        <title>Calculating ROI of ENG-111 with 21 Students</title>
+        <p>
+            Once again, return to <xref ref="example-eng-111-with-21-students"/> and 
+            <xref ref="example-eng-111-with-21-students-allocation"/>. In those examples, it was 
+            calculated that the ENG-111 course with 21 students would receive a budget allocation
+            of $7,327.18. Suppose that the cose to run the course, including instructional contract,
+            FICA, and supply costs total to $1,948.18. Then the ROI of the course would be
+            <md>
+                <mrow>\textbf{ROI} \amp = \textbf{FTE Budget Allocation} - \textbf{Instructional Cost} </mrow>
+                <mrow> \amp = 7327.18-1948.18 </mrow>
+                <mrow> \amp = 5379.00 </mrow>
+            </md>
+            In the traditional sense of ROI, it would be concluded that the course has a ROI of
+            about 73.4%.
+        </p>        
+    </example>
 </section>
