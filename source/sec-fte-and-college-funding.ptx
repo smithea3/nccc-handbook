@@ -64,6 +64,69 @@
                 </p>
             </statement>
         </fact>
-        
+    </subsection>
+
+    <subsection xml:id="subsec-calculating-budget-fte">
+        <title>Calculating Budget FTE</title>
+        <p>
+            The budget allocations based on FTE is calculated by multiplying the FTE of a course by
+            the funding alloted for that course's tier. As an equation, this looks like
+            <me>
+                \textbf{FTE Budget Allocation} = \textbf{FTE} \times \textbf{Tier Funding Allocation}
+            </me>
+        </p>
+        <p>
+            Using the tiers for courses, the amount of an institution's budget that is allocated 
+            based on the FTE can be calculated. Using the information from 
+            <xref ref="example-eng-111-with-21-students"/>, the budget allocation for the course 
+            can be calculated. The following example illustrates this calculation.
+        </p>
+
+        <example xml:id="example-eng-111-with-21-students-allocation">
+            <title>Budget Allocation for ENG-111 with 21 Students</title>
+            <p>
+                ENG-111 according to the NCCCCS is classified as a tier two course for FTE budget 
+                allocations. In the previous example with ENG-111 and the number of students equal 
+                to 21, the FTE was calculated to equal 1.969. Therefore, based on the tiered funding
+                this particular section of ENG-111 would receive 
+            </p>
+            <p>
+                The total funding allocation based on the teired funding and the FTE of
+                an ENG-111 course with the number of students equal to 21 would receive a budget
+                allocation of
+                <md>
+                    <mrow>\textbf{Budget Allocation} \amp = \textbf{FTE} \times \textbf{Tier Funding Allocation} </mrow>
+                    <mrow> \amp = 1.969 \times 3721.27 </mrow>
+                    <mrow> \amp = 7327.18 </mrow>
+                </md>
+                Therefore, when determing a college's funding allocation from the NCCCS State Office,
+                this particular section of ENG-111 would generate $7,327.18 dollars in budget
+                allocations.
+            </p>
+        </example>
+    </subsection>
+
+    <subsection xml:id="subsec-calculating-roi">
+        <title>Calculating Return on Investment (ROI)</title>
+        <p>
+            Another metric by which institutions and organizagion measure the financial outcomes of
+            the services they offer is called the <term>Return on Investment (ROI)</term>. For 
+            consistency, consider the following as the definition of return on investment for these
+            notes.
+        </p>
+        <definition xml:id="def-roi">
+            <title>Return on Investment (ROI)</title>
+            <statement>
+                <p>
+                    Return on Investment is a performance metric used to calculate and compare a 
+                    the financial efficiency and the net budgetary profits of a course.
+                </p>
+                <p>
+                    Traditionally, ROI is expressed as a percentage calculated by subtracting the
+                    cost of a course by the budget allocation of the course divided by the budget
+                    allocation of the course.
+                </p>
+            </statement>
+        </definition>
     </subsection>
 </section>
