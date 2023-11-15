@@ -199,6 +199,24 @@ var ptx_lunr_docs = [
   "body": " Calculating ROI of ENG-111 with 21 Students  Once again, return to and . In those examples, it was calculated that the ENG-111 course with 21 students would receive a budget allocation of $7,327.18. Suppose that the cose to run the course, including instructional contract, FICA, and supply costs total to $1,948.18. Then the ROI of the course would be In the traditional sense of ROI, it would be concluded that the course has a ROI of about 73.4%.  "
 },
 {
+  "id": "sec-determining-roi-of-faculty",
+  "level": "1",
+  "url": "sec-determining-roi-of-faculty.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Determing the ROI of Faculty",
+  "body": " Determing the ROI of Faculty   Having developed the return on invstment (ROI) of a course, the natrual progression is to consider how the cost of offering a course differs depending on the contract type of the instructor teaching the course. This section aims to provide an overview of the calculation of costs of part-time faculty compared to the cost of full-time faculty and the impact on ROI.   Be advised that the contract pay and salaries discussed in this section may differ depending on pay scale changes in the NCCCS and any supplemental pay or benefits that may be offered by the individual colleges. Therefore, when performing these calculations for specific colleges, it is important to use the values specific to the institution in question.     Determing ROI of Part-time Faculty   Part-time faculty at a college serve an important role in the academic operations of colleges and universities. According to the NCCCS Employee Headcounts by Full\/Part-time Status , 47% of the faculty in the NCCCS were part-time faculty. At Mitchell Community College, 61% of faculty are part-time and only 39% are full-time.     Determing ROI of Full-time Faculty       "
+},
+{
+  "id": "sec-determining-roi-of-faculty-2-2",
+  "level": "2",
+  "url": "sec-determining-roi-of-faculty.html#sec-determining-roi-of-faculty-2-2",
+  "type": "Remark",
+  "number": "1.3.1",
+  "title": "",
+  "body": " Be advised that the contract pay and salaries discussed in this section may differ depending on pay scale changes in the NCCCS and any supplemental pay or benefits that may be offered by the individual colleges. Therefore, when performing these calculations for specific colleges, it is important to use the values specific to the institution in question.  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
