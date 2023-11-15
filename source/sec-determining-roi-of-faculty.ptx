@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-determining-roi-of-faculty">
+    <title>Determing the ROI of Faculty</title>
+    <introduction>
+        <p>
+            Having developed the return on invstment (ROI) of a course, the natrual progression is
+            to consider how the cost of offering a course differs depending on the contract type
+            of the instructor teaching the course. This section aims to provide an overview of the
+            calculation of costs of part-time faculty compared to the cost of full-time faculty 
+            and the impact on ROI.
+        </p>
+        <remark>
+            <p>
+                Be advised that the contract pay and salaries discussed in this section may differ
+                depending on pay scale changes in the NCCCS and any supplemental pay or 
+                benefits that may be offered by the individual colleges. Therefore, when performing
+                these calculations for specific colleges, it is important to use the values 
+                specific to the institution in question.
+            </p>
+        </remark>
+    </introduction>
+    
+    <subsection xml:id="subsec-roi-of-part-time-faculty">
+        <title>Determing ROI of Part-time Faculty</title>
+        <introduction>
+            <p> 
+                Part-time faculty at a college serve an important role in the academic operations of
+                colleges and universities. According to the <url
+                        href="https://www.nccommunitycolleges.edu/about-us/resources/data-dashboards/employee-headcount/">NCCCS
+                Employee Headcounts by Full/Part-time Status</url>, 47% of the faculty in the NCCCS were
+                part-time faculty. At Mitchell Community College, 61% of faculty are part-time and only
+                39% are full-time. 
+            </p>
+        </introduction>
+        
+    </subsection>
+
+    <subsection xml:id="subsec-roi-of-full-time-faculty">
+        <title>Determing ROI of Full-time Faculty</title>
+        <introduction>
+            <p>
+                
+            </p>
+        </introduction>
+    </subsection>
+</section>
