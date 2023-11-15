@@ -5,7 +5,7 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="nccc-handbook">
-    <title>North Carolina Community College Handbook (Really Notes)</title>
+    <title>Professional Development Notes</title>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
